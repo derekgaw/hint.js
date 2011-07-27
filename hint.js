@@ -8,7 +8,7 @@
  */
 
 /* jshint reads the next two comments for configuration on how to parse this file.
-	To check hint.js against jshint, try ./hint.js ./hint.js */
+	To check hint.js against itself, try "hint.js hint.js" */
 
 /*jshint boss: true, curly: true, undef: true, expr: true, white: true, node: true, noarg: true, trailing: true */
 /*global console: true */
@@ -111,5 +111,4 @@
 	for (var i = 0; i < files.length; i++) {
 		fs.readFile(files[i], _JSHintResponseHandlerFactory(files[i]));
 	}
-
 })();
