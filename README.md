@@ -19,11 +19,11 @@ or
 
 You can set your own options and globals by setting the keys on the 'options' and 'globals' objects in hint.js.
 
-[node]: http://nodejs.org/
-[cachme]: http://www.cach.me/blog/2011/06/jshint-and-nodejs/
-[guyht]: https://github.com/guyht
-
 Attribution
 -----------
 
 Based heavily upon [Guy Halford-Thompson][guyht]'s [blog entry][cachme].
+
+[node]: http://nodejs.org/
+[cachme]: http://www.cach.me/blog/2011/06/jshint-and-nodejs/
+[guyht]: https://github.com/guyht
