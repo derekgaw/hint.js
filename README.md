@@ -1,7 +1,7 @@
 hint.js
 =======
 
-hint.js is a command line tool for JSHint.
+hint.js is a command line tool wrapping JSHint.
 
 Dependecies
 -----------
