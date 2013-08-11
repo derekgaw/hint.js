@@ -3878,7 +3878,7 @@ loop:   for (;;) {
     stmt('return', function () {
         if (this.line === nexttoken.line) {
             if (nexttoken.id === '(regexp)')
-                warning("Wrap the /regexp/ literal in parens to disambiguate the slash operator.");
+                warning("Wrap the /regexp/ literal in parents to disambiguate the slash operator.");
 
             if (nexttoken.id !== ';' && !nexttoken.reach) {
                 nonadjacent(token, nexttoken);
